@@ -1,3 +1,5 @@
+#This Python script reads a FASTA file, extracts sequences, translates them into protein sequences based on the three possible reading frames (ORFs), and writes the translated sequences to an output file. It uses the Bio module from Biopython for handling sequence data. Here's a breakdown of the code:
+
 import sys
 from Bio import Seq,SeqIO
 from Bio.Alphabet import IUPAC
